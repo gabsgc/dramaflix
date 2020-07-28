@@ -1,0 +1,134 @@
+{
+    "categorias": [
+      {
+        "titulo": "Top 5",
+        "link": "https://www.alura.com.br/formacao-front-end",
+        "cor": "#FF0000",
+        "link_extra": {
+          "text": "Meus favoritos",
+          "url": "/"
+        },
+        "videos": [
+          {
+            "titulo": "Como eu era antes de você",
+            "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
+          },
+          {
+            "titulo": "Oh My Venus",
+            "url": "https://www.youtube.com/watch?v=uMtaHlC49jk"
+          },
+          {
+            "titulo": "Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=eXMjTXL2Vks"
+          },
+          {
+            "titulo": "Descendents of the Sun",
+            "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
+          },
+          {
+            "titulo": "Fight For My Way",
+            "url": "https://www.youtube.com/watch?v=V01timpzAPA"
+          },
+          {
+            "titulo": "Zootopia",
+            "url": "https://www.youtube.com/watch?v=prct6AB5tR8"
+          }
+        ]
+      },
+      {
+        "titulo": "K-Dramas",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Séries dramáticas sul-coreanas",
+          "url": "/"
+        },
+        "videos": [
+          {
+            "titulo": "Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=eXMjTXL2Vks"
+          },
+          {
+            "titulo": "Descendents of the Sun",
+            "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
+          },
+          {
+            "titulo": "When the Camellia Blooms",
+            "url": "https://www.youtube.com/watch?v=prl2MXJQSKo"
+          },
+          {
+            "titulo": "My Holo Love",
+            "url": "https://www.youtube.com/watch?v=jVO1OfNPNWQ"
+          },
+          {
+            "titulo": "Fight For My Way",
+            "url": "https://www.youtube.com/watch?v=V01timpzAPA"
+          },
+          {
+            "titulo": "Chocolate",
+            "url": "https://www.youtube.com/watch?v=q_ALLnZTDBE"
+          },
+          {
+            "titulo": "Doctors",
+            "url": "https://www.youtube.com/watch?v=ZFTxkc1yNMo"
+          }
+        ]
+      },
+      {
+        "titulo": "Filmes",
+        "cor": "#0080FF",
+        "videos": [
+          {
+            "titulo": "O Extraordinário",
+            "url": "https://www.youtube.com/watch?v=7lyJtY_TPvk"
+          },
+          {
+            "titulo": "Como eu era antes de você",
+            "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
+          },
+          {
+            "titulo": "Detona Ralph 2",
+            "url": "https://www.youtube.com/watch?v=q7vk_FS55KQ"
+          }, 
+          {
+            "titulo": "Um Sonho Possível",
+            "url": "https://www.youtube.com/watch?v=qacQrxVl0Xo"
+          },  
+          {
+            "titulo": "Divergente",
+            "url": "https://www.youtube.com/watch?v=sutgWjz10sM"
+          },
+          {
+            "titulo": "Zootopia",
+            "url": "https://www.youtube.com/watch?v=prct6AB5tR8"
+          }
+        ]
+      },
+      
+      {
+        "titulo": "Trilhas sonoras",
+        "cor": "orange",
+        "videos": [
+          {
+            "titulo": "Flower - Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=4pbSH0PaXiQ&list=WL&index=8&t=0s"
+          },
+          {
+            "titulo": "Not Today - Me Before You",
+            "url": "https://youtu.be/trig1MiEo1s"
+          },
+          {
+            "titulo": "Always - Decendents of the Sun",
+            "url": "https://youtu.be/7dTesnDsceE"
+          },
+          {
+            "titulo": "Try Everything - Zootopia",
+            "url": "https://youtu.be/LnSYihRoGA4"
+          },
+          {
+            "titulo": "Little Braver - Uncontrollably Found",
+            "url": "https://youtu.be/oivkC6vS9eM"
+          }
+        ]
+      }
+    ]
+  }
