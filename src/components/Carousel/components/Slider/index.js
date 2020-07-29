@@ -16,13 +16,14 @@ const Container = styled.ul`
     transform: initial;
     &:before {
       font-size: 30px;
+      color: ${(props)=> props.categoryColor};
     }
   }
   
   .slick-prev {
     left: 0;
   }
-  .slick-next {
+  .slick-next{
     right: 16px;
   }
 `;
@@ -38,12 +39,12 @@ export const SliderItem = styled.li`
 `;
 
 
-const Slider = ({ children }) => (
-  <Container>
+const Slider = ({ children, categoryColor}) => (
+  <Container categoryColor={categoryColor}>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
-      speed: 300,
+      infinite: true,
+      speed: 400,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
