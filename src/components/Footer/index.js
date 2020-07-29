@@ -1,16 +1,17 @@
 import React from 'react';
 import {FooterBase} from './style';
+import Logo from '../../assets/img/logo-dramaflix.png';
 
 function Footer() {
     return (
         <FooterBase>
-            <a href="https://www.alura.com.br/">
-                <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+            <a href="/">
+            <img className="Logo" src={Logo} alt="Logo Dramaflix"/>
             </a>
             <p>
-                Orgulhosamente criado durante a
+                Orgulhosamente criado por Gabriela Garcia durante a
                 {' '}
-                <a href="https://www.alura.com.br/">
+                <a href="https://www.alura.com.br/" style={{color: "#2E2EFE"}}>
                     Imersão React da Alura
                 </a>
             </p>
