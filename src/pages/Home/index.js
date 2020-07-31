@@ -28,11 +28,7 @@ function Home() {
       <Carousel
         category={dadosIniciais.categorias[2]}
       />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
+      
       <Footer />
     </div>
   );

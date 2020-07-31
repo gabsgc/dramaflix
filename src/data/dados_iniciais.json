@@ -1,43 +1,38 @@
 {
     "categorias": [
       {
-        "titulo": "Top 5",
-        "link": "https://www.alura.com.br/formacao-front-end",
-        "cor": "#FF0000",
-        "link_extra": {
-          "text": "Meus favoritos",
-          "url": "/"
-        },
+        "titulo": "Filmes",
+        "cor": "#00C86F",
         "videos": [
           {
             "titulo": "Como eu era antes de você",
             "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
           },
           {
-            "titulo": "Oh My Venus",
-            "url": "https://www.youtube.com/watch?v=uMtaHlC49jk"
+            "titulo": "Desafiando Gigantes",
+            "url": "https://youtu.be/D-k1QW0bS5o"
           },
           {
-            "titulo": "Crash Landing On You",
-            "url": "https://www.youtube.com/watch?v=eXMjTXL2Vks"
+            "titulo": "O Extraordinário",
+            "url": "https://www.youtube.com/watch?v=7lyJtY_TPvk"
           },
           {
-            "titulo": "Descendents of the Sun",
-            "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
+            "titulo": "Um Sonho Possível",
+            "url": "https://www.youtube.com/watch?v=qacQrxVl0Xo"
           },
           {
-            "titulo": "Fight For My Way",
-            "url": "https://www.youtube.com/watch?v=V01timpzAPA"
+            "titulo": "Mais Que Vencedores",
+            "url": "https://youtu.be/h_In0oShK7M"
           },
           {
-            "titulo": "Zootopia",
-            "url": "https://www.youtube.com/watch?v=prct6AB5tR8"
+            "titulo": "Em Seus Passos, O Que Faria Jesus?",
+            "url": "https://youtu.be/4GnZ9dTdrRc"
           }
         ]
       },
       {
         "titulo": "K-Dramas",
-        "cor": "#00C86F",
+        "cor": "#FF0000",
         "link_extra": {
           "text": "Séries dramáticas sul-coreanas",
           "url": "/"
@@ -52,8 +47,8 @@
             "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
           },
           {
-            "titulo": "When the Camellia Blooms",
-            "url": "https://www.youtube.com/watch?v=prl2MXJQSKo"
+            "titulo": "Oh My Venus",
+            "url": "https://www.youtube.com/watch?v=uMtaHlC49jk"
           },
           {
             "titulo": "My Holo Love",
@@ -74,59 +69,28 @@
         ]
       },
       {
-        "titulo": "Filmes",
-        "cor": "#0080FF",
-        "videos": [
-          {
-            "titulo": "O Extraordinário",
-            "url": "https://www.youtube.com/watch?v=7lyJtY_TPvk"
-          },
-          {
-            "titulo": "Como eu era antes de você",
-            "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
-          },
-          {
-            "titulo": "Detona Ralph 2",
-            "url": "https://www.youtube.com/watch?v=q7vk_FS55KQ"
-          }, 
-          {
-            "titulo": "Um Sonho Possível",
-            "url": "https://www.youtube.com/watch?v=qacQrxVl0Xo"
-          },  
-          {
-            "titulo": "Divergente",
-            "url": "https://www.youtube.com/watch?v=sutgWjz10sM"
-          },
-          {
-            "titulo": "Zootopia",
-            "url": "https://www.youtube.com/watch?v=prct6AB5tR8"
-          }
-        ]
-      },
-      
-      {
-        "titulo": "Trilhas sonoras",
+        "titulo": "Músicas",
         "cor": "orange",
         "videos": [
           {
-            "titulo": "Flower - Crash Landing On You",
-            "url": "https://www.youtube.com/watch?v=4pbSH0PaXiQ&list=WL&index=8&t=0s"
+            "titulo": "Lauren Daigle - You Say",
+            "url": "https://youtu.be/sIaT8Jl2zpI"
           },
           {
-            "titulo": "Not Today - Me Before You",
-            "url": "https://youtu.be/trig1MiEo1s"
+            "titulo": "Noah James - Turn Your Eyes Upon Jesus",
+            "url": "https://youtu.be/hh-C7OdkY-c"
           },
           {
-            "titulo": "Always - Decendents of the Sun",
-            "url": "https://youtu.be/7dTesnDsceE"
+            "titulo": "Koryn Hawthorne - Enough",
+            "url": "https://youtu.be/KbzQxBWhMG8"
           },
           {
-            "titulo": "Try Everything - Zootopia",
-            "url": "https://youtu.be/LnSYihRoGA4"
+            "titulo": "Mosaic MSC - Eyes On You",
+            "url": "https://youtu.be/FM_uuDZX-Kc"
           },
           {
-            "titulo": "Little Braver - Uncontrollably Found",
-            "url": "https://youtu.be/oivkC6vS9eM"
+            "titulo": "Unspoken - Call it Grace",
+            "url": "https://youtu.be/4wgasg2dqq0"
           }
         ]
       }
