@@ -19,10 +19,10 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   padding: 16px;
 
-  transition: opacity .3s;
+  /*transition: opacity .2s;*/
   &:hover,
   &:focus {
-    opacity: .5;
+    /*opacity: .5; */
   }
   
   &:not(:first-child) {
@@ -30,7 +30,7 @@ export const VideoCardContainer = styled.a`
   }
 `;
 
-VideoCardContainer.Title = styled.div`
+  VideoCardContainer.Title = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
@@ -45,12 +45,13 @@ VideoCardContainer.Title = styled.div`
   }
 `;
 
-VideoCardContainer.Title.Text = styled.div`
+  VideoCardContainer.Title.Text = styled.div`
   color: var(--white);
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  bottom: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 `;
