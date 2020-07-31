@@ -1,0 +1,178 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "Top 5",
+            "cor": "#FF0000",
+            "link_extra": {
+                "text": "Meus favoritos",
+                "url": "/"
+            }
+        },
+        {
+            "id": 2,
+            "titulo": "K-Dramas",
+            "cor": "#00C86F",
+            "link_extra": {
+                "text": "Séries dramáticas sul-coreanas",
+                "url": "/"
+            }
+        },
+        {
+            "id": 3,
+            "titulo": "Filmes",
+            "cor": "#0080FF"
+        },
+        {
+            "id": 4,
+            "titulo": "Trilhas sonoras",
+            "cor": "orange"
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Como eu era antes de você",
+            "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "Oh My Venus",
+            "url": "https://www.youtube.com/watch?v=uMtaHlC49jk"
+        },
+        {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=eXMjTXL2Vks"
+        },
+        {
+            "id": 4,
+            "categoriaId": 1,
+            "titulo": "Descendents of the Sun",
+            "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
+        },
+        {
+            "id": 5,
+            "categoriaId": 1,
+            "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+            "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+            "id": 6,
+            "categoriaId": 1,
+            "titulo": "Fight For My Way",
+            "url": "https://www.youtube.com/watch?v=V01timpzAPA"
+        },
+        {
+            "id": 7,
+            "categoriaId": 1,
+            "titulo": "Zootopia",
+            "url": "https://www.youtube.com/watch?v=prct6AB5tR8"
+        },
+        {
+            "id": 8,
+            "categoriaId": 2,
+            "titulo": "Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=eXMjTXL2Vks"
+        },
+        {
+            "id": 9,
+            "categoriaId": 2,
+            "titulo": "Descendents of the Sun",
+            "url": "https://www.youtube.com/watch?v=wTGwjDqtfzQ"
+        },
+        {
+            "id": 10,
+            "categoriaId": 2,
+            "titulo": "When the Camellia Blooms",
+            "url": "https://www.youtube.com/watch?v=prl2MXJQSKo"
+        },
+        {
+            "id": 11,
+            "categoriaId": 2,
+            "titulo": "My Holo Love",
+            "url": "https://www.youtube.com/watch?v=jVO1OfNPNWQ"
+        },
+        {
+            "id": 12,
+            "categoriaId": 2,
+            "titulo": "Fight For My Way",
+            "url": "https://www.youtube.com/watch?v=V01timpzAPA"
+        },
+        {
+            "id": 13,
+            "categoriaId": 2,
+            "titulo": "Chocolate",
+            "url": "https://www.youtube.com/watch?v=q_ALLnZTDBE"
+        },
+        {
+            "id": 14,
+            "categoriaId": 2,
+            "titulo": "Doctors",
+            "url": "https://www.youtube.com/watch?v=ZFTxkc1yNMo"
+        },
+        {
+            "id": 15,
+            "categoriaId": 3,
+            "titulo": "O Extraordinário",
+            "url": "https://www.youtube.com/watch?v=7lyJtY_TPvk"
+        },
+        {
+            "id": 16,
+            "categoriaId": 3,
+            "titulo": "Como eu era antes de você",
+            "url": "https://www.youtube.com/watch?v=PnqUs3xiAVI"
+        },
+        {
+            "id": 17,
+            "categoriaId": 3,
+            "titulo": "Detona Ralph 2",
+            "url": "https://www.youtube.com/watch?v=q7vk_FS55KQ"
+        },
+        {
+            "id": 18,
+            "categoriaId": 3,
+            "titulo": "Um Sonho Possível",
+            "url": "https://www.youtube.com/watch?v=qacQrxVl0Xo"
+        },
+        {
+            "id": 19,
+            "categoriaId": 3,
+            "titulo": "Divergente",
+            "url": "https://www.youtube.com/watch?v=sutgWjz10sM"
+        },
+        {
+            "id": 20,
+            "categoriaId": 4,
+            "titulo": "Flower - Crash Landing On You",
+            "url": "https://www.youtube.com/watch?v=4pbSH0PaXiQ&list=WL&index=8&t=0s"
+        },
+        {
+            "id": 21,
+            "categoriaId": 4,
+            "titulo": "Not Today - Me Before You",
+            "url": "https://youtu.be/trig1MiEo1s"
+        },
+        {
+            "id": 22,
+            "categoriaId": 4,
+            "titulo": "Always - Decendents of the Sun",
+            "url": "https://youtu.be/7dTesnDsceE"
+        },
+        {
+            "id": 23,
+            "categoriaId": 4,
+            "titulo": "Try Everything - Zootopia",
+            "url": "https://youtu.be/LnSYihRoGA4"
+        },
+        {
+            "id": 24,
+            "categoriaId": 4,
+            "titulo": "Little Braver - Uncontrollably Found",
+            "url": "https://youtu.be/oivkC6vS9eM"
+        }
+    ]
+}
