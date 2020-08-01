@@ -27,7 +27,7 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Video</h1>
+      <h1>Novo Video</h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
@@ -75,7 +75,7 @@ function CadastroVideo() {
       <br />
       <br />
 
-      <Link to="/cadastro/categoria">
+      <Link to="/cadastro/categoria" className="linkPage">
         Cadastrar Categoria
       </Link>
     </PageDefault>

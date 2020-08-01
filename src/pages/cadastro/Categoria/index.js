@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import Loader from '../../../components/Loader';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -70,27 +71,31 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
+        <Button type="submit">
           Cadastrar
         </Button>
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
+        <Loader />
       )}
 
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
-          </li>
-        ))}
-      </ul>
+      <div className="container">
+        <h1>Categorias Registradas</h1>
+        <ul>
+          {categorias.map((categoria) => (
+            <li key={`${categoria.titulo}`} style={{listStyle: "none", display: 'inline', padding: '5px'}}>
+              {categoria.titulo}
+            </li>
+          ))}
+        </ul>
+      </div>
 
-      <Link to="/">
-        Ir para home
+      <Link to="/cadastro/video" className="linkPage" style={{padding: '10px'}}>
+        Voltar
+      </Link>
+      <Link to="/" className="linkPage">
+        Ir para Home
       </Link>
     </PageDefault>
   );

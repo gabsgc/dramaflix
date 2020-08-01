@@ -1,0 +1,31 @@
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@keyframes start-loader {
+    0% {
+        transform: rotate(0deg);
+        border-top: 15px solid #df00ae;
+        
+    }
+    50% {
+        transform: rotate(180deg);
+        border-top: 15px solid #df00ae;
+        
+    }
+    100% {
+        transform: rotate(360deg);
+        border-top: 15px solid #d700eb;
+    }
+}
+
+.loader {
+    border: 15px solid #cecece;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: start-loader 4s linear infinite;
+}
