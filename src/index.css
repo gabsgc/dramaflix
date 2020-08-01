@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -28,4 +28,14 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+}
+
+.linkPage {
+  font-size: 12pt;
+  font-family: monospace;
+  color: var(--white);
+}
+
+.linkPage:hover {
+  color: var(--primary);
 }
