@@ -48,6 +48,9 @@ const Slider = ({ children, categoryColor}) => (
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      pauseOnHover: true,
     }}
     >
       {children}
