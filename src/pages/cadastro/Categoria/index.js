@@ -7,6 +7,7 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import Loader from '../../../components/Loader';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -40,20 +41,24 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-        if (values.titulo !== '') {
-          setCategorias([
-            ...categorias,
-            values,
-          ]);
-          toast.success('Categoria cadastrada com sucesso!', {
-            position: 'bottom-center',
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
+        if (values.titulo !== '' && values.cor !== '') {
+          categoriasRepository.create({
+            titulo: values.titulo,
+            descricao: values.descricao,
+            color: values.color,
+          })
+            .then(() => {
+              toast.success('Vídeo cadastrado com sucesso!', {
+                position: 'bottom-center',
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
+              clearForm();
+            });
         } else {
           toast.warning('Campo(s) obrigatório(s) em branco!', {
             position: 'bottom-center',
@@ -65,8 +70,6 @@ function CadastroCategoria() {
             progress: undefined,
           });
         }
-
-        clearForm();
       }}
       >
 
@@ -87,7 +90,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Cor"
+          label="*Cor"
           type="color"
           name="cor"
           value={values.cor}
@@ -107,17 +110,17 @@ function CadastroCategoria() {
       )}
 
       <div className="container">
-        <h1>Categorias Registradas</h1>
+        <h1 style={{ textAlign: 'center' }}>Categorias Registradas</h1>
         <ul>
           {categorias.map((categoria) => (
-            <li key={`${categoria.titulo}`} style={{ listStyle: 'none', display: 'inline', padding: '5px' }}>
+            <li key={`${categoria.titulo}`} style={{ display: 'inline-block', padding: '5px' }}>
               {categoria.titulo}
             </li>
           ))}
         </ul>
       </div>
 
-      <Link to="/cadastro/video" className="linkPage" style={{ padding: '10px' }}>
+      <Link to="/cadastro/video" className="linkPage">
         Voltar
       </Link>
       <Link to="/" className="linkPage">
