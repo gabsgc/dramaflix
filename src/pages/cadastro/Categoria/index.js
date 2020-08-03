@@ -17,7 +17,7 @@ function CadastroCategoria() {
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
-
+  
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -110,14 +110,14 @@ function CadastroCategoria() {
       )}
 
       <div className="container">
-        <h1 style={{ textAlign: 'center' }}>Categorias Registradas</h1>
-        <ul>
+        <h2>Categorias Registradas</h2>
+        <ol style={{fontSize: '15pt' }}>
           {categorias.map((categoria) => (
-            <li key={`${categoria.titulo}`} style={{ display: 'inline-block', padding: '5px' }}>
+            <li key={`${categoria.titulo}`}>
               {categoria.titulo}
             </li>
           ))}
-        </ul>
+        </ol>
       </div>
 
       <Link to="/cadastro/video" className="linkPage">

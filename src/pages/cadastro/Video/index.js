@@ -45,6 +45,16 @@ function CadastroVideo() {
             draggable: true,
             progress: undefined,
           });
+        } else if (categoriaEscolhida === undefined) {
+          toast.error('Categoria escolhida não existe!', {
+            position: 'bottom-center',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         } else {
           videosRepository.create({
             titulo: values.titulo,
